@@ -1,3 +1,7 @@
 /__pycache__
+
 .env
+
 /venv
+
+docker-compose-origin.yml
