@@ -9,7 +9,7 @@ The server also exposes a **REST API** to interact with other apps.
 
 ## 🗂 Project Structure
 
-
+```bash
 ├── assets/shortcut
 │ └── rag_view.png # Screenshot / visual reference
 ├── data/ # Storage for vector data or other resources
@@ -24,7 +24,7 @@ The server also exposes a **REST API** to interact with other apps.
 ├── openai_utils.py # OpenAI API helper functions
 ├── rag_core.py # Core RAG logic (query processing)
 ├── requirements.txt # Python dependencies
-
+```
 ---
 
 
