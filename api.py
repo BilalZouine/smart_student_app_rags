@@ -6,11 +6,12 @@ app = FastAPI()
 
 
 @app.post("/chat")
-async def get_answer(request: Request):
+async def chat(request: Request):
+    
     payload = await request.json()
 
     query = payload.get("query")
-
+    
     if not query:
         raise HTTPException(status_code=400, detail="The 'query' param is required")
 
