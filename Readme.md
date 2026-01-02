@@ -68,7 +68,7 @@ Create a `.env` file with the following example settings:
 # PostgreSQL / pgVector configuration
 PG_HOST=localhost
 PG_PORT=5432
-PG_DB=your_database_name
+PG_DB=ragdb
 PG_USER=your_username
 PG_PASSWORD=your_password
 
